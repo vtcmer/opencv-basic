@@ -25,7 +25,7 @@ def regionOfIntereset(img):
 
 def displayLines(img, lns):
     lineImage = np.zeros_like(img)
-    if lines is not None:
+    if lns is not None:
         for line in lns:
             #print(line)
             x1, y1, x2, y2 = line.reshape(4)
