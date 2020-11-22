@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 
+#https://www.youtube.com/watch?v=WQeoO7MI0Bs
 
 # Show image
 def showImage():
@@ -32,7 +33,7 @@ def showImageColor():
     cv2.imshow("Output erode",erode)
     cv2.waitKey(0)
 
-showImageColor()
+#showImageColor()
 
 
 def showVideo():
