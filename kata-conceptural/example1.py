@@ -1,8 +1,6 @@
 import cv2
 import numpy as np
 
-#https://www.youtube.com/watch?v=WQeoO7MI0Bs
-
 # Show image
 def showImage():
     img = cv2.imread("resources/stark.jpg")
