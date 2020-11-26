@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 
+
+
 #resize Image
 def showFace():
 
